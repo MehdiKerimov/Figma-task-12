@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding: 92px 135px 192px 135px;
+    min-height: 100vh;
+    background: #28293E;
+}
+.container .text-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container .text-box h1{
+    color: var(--Text_Light_Accent, #EF6D58);
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+letter-spacing: 3px;
+text-transform: uppercase;
+}
+.container .text-box h2{
+    margin-bottom: 44px;
+    margin-top: 20px;
+    color: var(--Text_Light, #FFF);
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 56px;
+font-style: normal;
+font-weight: 800;
+line-height: 64px; 
+letter-spacing: -1px;
+}
+.container .box a{
+    text-decoration: none;
+    margin-right: 60px;
+    color: var(--Text_Light, #FFF);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+}
+.container .box-container-1 {
+    position: relative;
+
+display: flex;
+flex-direction: column;
+}
+.container .box-container .box-container-1 .box-1{
+    margin-bottom: 20px;
+           width: 607px;
+    height: 414px;
+    border-radius: 6px;
+opacity: 0.3181;
+background: #5C2000;
+    margin-top: 68px;
+    position: relative;
+    padding: 0px 0px 51px 48px;
+}
+.container .box-container .box-container-1 button{
+    width: 84px;
+height: 38px;
+border-radius: 19px;
+background: #FFF;
+position: absolute;
+top: 303px;
+}
+.container .box-container .box-container-1  button a{
+    text-decoration: none;
+    color: var(--Text_Dark, #391400);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+}
+.container .box-container .box-container-1  h4{
+    color: var(--Text_Light, #FFF);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: 48px; 
+    position: absolute;
+    top: 350px;
+}
+.container .box-container .box-container-1 .box-2{
+
+
+           width: 607px;
+    height: 414px;
+    border-radius: 6px;
+opacity: 0.3181;
+background: #5C2000;
+border-radius: 6px;
+opacity: 0.3181;
+}
+.box-container-2 .box-3{
+    width: 670px;
+height: 416px;
+}
+
